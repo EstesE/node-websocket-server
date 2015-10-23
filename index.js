@@ -66,6 +66,7 @@ wss.broadcast = function(data) {
 	data.msg = "";
 	
 	for(var i in this.clients) {
+		data.id = this.clients[i].uuid;
 		this.clients[i].send(JSON.stringify(data));
 	}
 }
