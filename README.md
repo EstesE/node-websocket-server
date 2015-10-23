@@ -4,6 +4,8 @@ Test node websocket project
 npm install
 ## Usage
 node index.js
+## Connecting clients
+For a simple test try using the Chrome addon: 'Dark WebSocket Terminal' or any other websocket client
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
