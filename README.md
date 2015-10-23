@@ -1,5 +1,5 @@
 # node-websocket-server
-TODO: Write a project description
+Test node websocket project
 ## Installation
 npm install
 ## Usage
